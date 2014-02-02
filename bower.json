@@ -1,0 +1,13 @@
+{
+	"author": "Juan La Jara",
+	"name": "talkangular",
+	"description": "reveal.js angularjs adapter",
+	"version": "0.0.1",
+	"homepage": "https://github.com/wixo/talkangular",
+	"repository": {
+		"type": "git",
+		"url": "git://github.com/wixo/talkangular"
+	},
+	"dependencies" : { "underscore": "~1.5.2" },
+	"main": "./talkangular"
+}
