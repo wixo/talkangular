@@ -58,11 +58,11 @@
 					if(attrs.type === 'text/ng-template'){
 						$pre.addClass('lang-html');
 					}
-					$pre.addClass(element.get(0).className);
+					$pre.addClass(element[0].className);
 
 					$pre.text(dedent(element.text()));
 					element.after($pre);
-					prettyPrint(element.parent().get(0));
+					prettyPrint(element.parent()[0]);
 				}
 			};
 		}
