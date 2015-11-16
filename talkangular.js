@@ -56,7 +56,11 @@
 					var $pre = $('<pre></pre>');
 					$pre.addClass('prettyprint');
 					if(attrs.type === 'text/ng-template'){
-						$pre.addClass('lang-html');
+						if(attrs.language === 'js') {
+							$pre.addClass('lang-js')
+						} else {
+							$pre.addClass('lang-html');
+						}
 					}
 					$pre.addClass(element[0].className);
 
